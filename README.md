@@ -1,15 +1,13 @@
-astrodb-template-db
+all_streams_unique_v4
 ---------------------------
 
-[![build](https://github.com/astrodbtoolkit/astrotemplate-db/actions/workflows/run_tests.yml/badge.svg)](https://github.com/astrodbtoolkit/astrotemplate-db/actions/workflows/run_tests.yml)  ![GitHub License](https://img.shields.io/github/license/astrodbtoolkit/astrodb-template-db)
+[![build](https://github.com/yzjanee/all-stream-unique-database-v4/actions/workflows/run_tests.yml/badge.svg)](https://github.com/yzjanee/all-stream-unique-database-v4/actions/workflows/run_tests.yml)  ![GitHub License](https://img.shields.io/github/license/yzjanee/all-stream-unique-database-v4)
 
-A template schema for astronomical databases.
+A database of unique Gaia DR3 stellar stream members (80,162 stars across 92 streams from Ibata et al. 2024 and associated works), built with the AstroDB Toolkit.
 
-Usage instructions are included in the companion `astrodb-utils` package: [Getting started with a new database](https://astrodb-utils.readthedocs.io/en/latest/pages/make_new_db/getting_started_new_database.html)
+## Schema
 
-Entity relationship diagram of the template schema
-
-![Entity Relationship Diagram](docs/figures/schema_erd.png)
+See the [entity relationship diagram](docs/figures/schema_erd.md) — GitHub renders it inline.
 
 Acknowledgements
 ----------------
