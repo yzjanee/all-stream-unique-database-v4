@@ -1,0 +1,129 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 6149778059837400576",
+            "ra_deg": 185.65639324904006,
+            "dec_deg": -40.74419557641454,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ibat24",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Omega Centauri",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Ibat24"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -4.999435549856997,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -6.398028788639463,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 2.885981061471908,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.9963150024414062,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 7.737776560945425,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ibat24"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "6149778059837400576"
+        },
+        {
+            "other_name": "Gaia DR3 6149778059837400576"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.007297641314685216,
+            "parallax_error": 0.422231525182724,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ibat24"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 19.638935089111328,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Ibat24",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -5.604753012298628,
+            "pm_ra_error": 0.2890376150608063,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -6.44512121400088,
+            "pm_dec_error": 0.2102043330669403,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.28051257133483887,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ibat24"
+        }
+    ]
+}

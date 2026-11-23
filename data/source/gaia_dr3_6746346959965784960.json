@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 6746346959965784960",
+            "ra_deg": 291.9890630151867,
+            "dec_deg": -30.60280613096418,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Vasi21",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Sagittarius",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Vasi21"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": 15.900083503545627,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Vasi21"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": 3.5023547003570155,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Vasi21"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -9.285096683896485,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Vasi21"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 1.5139236450195312,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Vasi21"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 26.14,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Vasi21"
+        },
+        {
+            "model": null,
+            "parameter": "dist_kpc",
+            "value": 26.14,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Vasi21"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "6746346959965784960"
+        },
+        {
+            "other_name": "Gaia DR3 6746346959965784960"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.0034144391668582694,
+            "parallax_error": 0.042852066457271576,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Vasi21"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 15.225194931030273,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Vasi21",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -2.9303529693814583,
+            "pm_ra_error": 0.040877971798181534,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -1.6270336242009256,
+            "pm_dec_error": 0.034238774329423904,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.06403576582670212,
+            "adopted": true,
+            "comments": null,
+            "reference": "Vasi21"
+        }
+    ]
+}

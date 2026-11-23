@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 726723241171383040",
+            "ra_deg": 152.79065198740295,
+            "dec_deg": 25.39120444595298,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Kopo23",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Orphan-Chenab",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Kopo23"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -19.396932064193745,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -5.5473814726310575,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 17.31994518940878,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.9891490936279297,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 21.300981663172227,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Kopo23"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "726723241171383040"
+        },
+        {
+            "other_name": "Gaia DR3 726723241171383040"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.09631728265771441,
+            "parallax_error": 0.25862279534339905,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Kopo23"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 19.00023651123047,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Kopo23",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -0.4675853584833653,
+            "pm_ra_error": 0.2981000244617462,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -0.4616968785774321,
+            "pm_dec_error": 0.3939507305622101,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.6285644769668579,
+            "adopted": true,
+            "comments": null,
+            "reference": "Kopo23"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": 201.20640563964844,
+            "rv_error": 7.503861904144287,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Kopo23"
+        }
+    ]
+}

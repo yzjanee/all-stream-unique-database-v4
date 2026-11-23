@@ -1,0 +1,151 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 2349548630777593344",
+            "ra_deg": 11.609143924224782,
+            "dec_deg": -22.164725156990126,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Li__21",
+            "other_references": "Ibat24,Ship19",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "ATLAS-Aliqa Uma",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Li__21"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.35,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -8.878588652349382,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": 1.5501365803789504,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -18.464077684881126,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.8645801544189453,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 18.55957912405655,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "2349548630777593344"
+        },
+        {
+            "other_name": "Gaia DR3 2349548630777593344"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.04857899254308247,
+            "parallax_error": 0.16698291897773743,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.475767135620117,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24, Ship19",
+            "reference": "Li__21",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -0.6757601752108657,
+            "pm_ra_error": 0.23662781715393066,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -0.9642785105529317,
+            "pm_dec_error": 0.1945110410451889,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.35969194769859314,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -141.97,
+            "rv_error": 2.2,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 6513595702869675648",
+            "ra_deg": 341.4603794106264,
+            "dec_deg": -50.95808995191578,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ibat24",
+            "other_references": "Awad24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Jhelum",
+            "membership_probability": null,
+            "comments": "Also in: Awad24",
+            "adopted": true,
+            "reference": "Ibat24"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -1.9737829979819814,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -2.3941159514646007,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -10.166008415468236,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.6624279022216797,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 12.21506705442327,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "6513595702869675648"
+        },
+        {
+            "other_name": "Gaia DR3 6513595702869675648"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.11159796946638009,
+            "parallax_error": 0.1983698159456253,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.777639389038086,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 6.830490703219405,
+            "pm_ra_error": 0.13059701025485992,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -5.12252304155398,
+            "pm_dec_error": 0.22533468902111053,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.11252354830503464,
+            "adopted": true,
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -44.51,
+            "rv_error": 2.43,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Awad24",
+            "reference": "Ibat24"
+        }
+    ]
+}

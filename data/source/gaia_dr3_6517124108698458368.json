@@ -1,0 +1,151 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 6517124108698458368",
+            "ra_deg": 337.1780009554656,
+            "dec_deg": -49.15476937771259,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ship19",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Jhelum",
+            "membership_probability": 0.94,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Ship19"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.5066189490331365,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -1.4133249297040607,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -1.9174380836501594,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -10.15326048357172,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.9477958679199219,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 12.420559631151919,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "6517124108698458368"
+        },
+        {
+            "other_name": "Gaia DR3 6517124108698458368"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.18714191017890724,
+            "parallax_error": 0.06426846981048584,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 16.774951934814453,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 5.9795339866041655,
+            "pm_ra_error": 0.049999818205833435,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -4.818844210040755,
+            "pm_dec_error": 0.06191181391477585,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.1336202621459961,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -37.64362554181869,
+            "rv_error": 0.9796407452087155,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Ship19"
+        }
+    ]
+}

@@ -201,8 +201,8 @@
     },
     {
         "telescope": "Gaia",
-        "description": "Galaxy Evolution Explorer 50 cm, Satellite/Spacecraft",
-        "reference": null
+        "description": "Gaia, ESA astrometry mission, Satellite/Spacecraft",
+        "reference": "Gaia23"
     },
     {
         "telescope": "GALEX",

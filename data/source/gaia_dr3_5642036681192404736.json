@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 5642036681192404736",
+            "ra_deg": 131.74834299785468,
+            "dec_deg": -30.355557164835894,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ferg22",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Jet",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Ferg22"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -17.264038342529954,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ferg22"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -29.79763963635917,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ferg22"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 4.4631216727483265,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ferg22"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 1.2352275848388672,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Ferg22"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 31.439415230555753,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ferg22"
+        },
+        {
+            "model": null,
+            "parameter": "dist_kpc",
+            "value": 32.92,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ferg22"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "5642036681192404736"
+        },
+        {
+            "other_name": "Gaia DR3 5642036681192404736"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.06960018853932654,
+            "parallax_error": 0.1502917855978012,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ferg22"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.579668045043945,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Ferg22",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -0.22451875709735986,
+            "pm_ra_error": 0.10797847807407379,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -1.0726240984982893,
+            "pm_dec_error": 0.12554863095283508,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.2899349331855774,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ferg22"
+        }
+    ]
+}

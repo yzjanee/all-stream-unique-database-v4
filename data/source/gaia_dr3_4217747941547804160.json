@@ -1,0 +1,129 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 4217747941547804160",
+            "ra_deg": 306.43816077702974,
+            "dec_deg": -6.260267300870442,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Gril22",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "M2",
+            "membership_probability": 0.09,
+            "comments": null,
+            "adopted": true,
+            "reference": "Gril22"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -1.3652840632830987,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Gril22"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": 5.448223623908532,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Gril22"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -3.881540140461226,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Gril22"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.7482051849365234,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Gril22"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 9.625757751732994,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Gril22"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "4217747941547804160"
+        },
+        {
+            "other_name": "Gaia DR3 4217747941547804160"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.00015333115962868488,
+            "parallax_error": 0.39301079511642456,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Gril22"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 19.611608505249023,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Gril22",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 5.658650567074002,
+            "pm_ra_error": 0.4185662269592285,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -2.2782932600499723,
+            "pm_dec_error": 0.34117451310157776,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.27230221033096313,
+            "adopted": true,
+            "comments": null,
+            "reference": "Gril22"
+        }
+    ]
+}

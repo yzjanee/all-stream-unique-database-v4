@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 6558441247408890240",
+            "ra_deg": 327.0671314387468,
+            "dec_deg": -52.195493488617906,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Kopo23",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Orphan-Chenab",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Kopo23"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": 17.71704419403832,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -7.5865721497320635,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -29.972333298273497,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 1.3645601272583008,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 40.40704300586911,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "6558441247408890240"
+        },
+        {
+            "other_name": "Gaia DR3 6558441247408890240"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.02825042894639751,
+            "parallax_error": 0.02904624678194523,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 15.501224517822266,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 0.34843343170887786,
+            "pm_ra_error": 0.02629680186510086,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -2.4541083047881362,
+            "pm_dec_error": 0.025199459865689278,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.016242269426584244,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -148.19285683898562,
+            "rv_error": 0.1725445619269552,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Kopo23"
+        }
+    ]
+}

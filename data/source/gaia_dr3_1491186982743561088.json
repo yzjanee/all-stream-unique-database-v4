@@ -1,0 +1,162 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 1491186982743561088",
+            "ra_deg": 216.382981997309,
+            "dec_deg": 40.816720558401244,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Chan22",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Spectre",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Chan22"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -1.66,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -6.699239309295284,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": 5.463579144994007,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 12.946809871264934,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "aFe",
+            "value": 0.3,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.9174041748046875,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Chan22"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 14.121450620790585,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Chan22"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "1491186982743561088"
+        },
+        {
+            "other_name": "Gaia DR3 1491186982743561088"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.14076644155190693,
+            "parallax_error": 0.07859699428081512,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Chan22"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 17.708133697509766,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Chan22",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -5.487258056179411,
+            "pm_ra_error": 0.06819362193346024,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -4.947315643352368,
+            "pm_dec_error": 0.08200988173484802,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.3222244083881378,
+            "adopted": true,
+            "comments": null,
+            "reference": "Chan22"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -137.4,
+            "rv_error": 0.5,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Chan22"
+        }
+    ]
+}

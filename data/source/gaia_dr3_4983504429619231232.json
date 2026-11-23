@@ -1,0 +1,151 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 4983504429619231232",
+            "ra_deg": 19.729812615009056,
+            "dec_deg": -42.89262371039867,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ship19",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Elqui",
+            "membership_probability": 0.81,
+            "comments": null,
+            "adopted": true,
+            "reference": "Ship19"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.2708997583950925,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": null,
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -4.195516350475732,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -15.509671450669721,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -53.48105325872663,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 1.0093727111816406,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 55.85373921400764,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Ship19"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "4983504429619231232"
+        },
+        {
+            "other_name": "Gaia DR3 4983504429619231232"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.13734977085907135,
+            "parallax_error": 0.12287160009145737,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ship19"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.472715377807617,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Ship19",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 0.2386502522146634,
+            "pm_ra_error": 0.0897224172949791,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -0.5654797335275716,
+            "pm_dec_error": 0.112064428627491,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.3771814703941345,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ship19"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -75.23623669984694,
+            "rv_error": 3.614567724659157,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Ship19"
+        }
+    ]
+}

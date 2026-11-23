@@ -1,0 +1,162 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 5018812118808572800",
+            "ra_deg": 28.09406232961226,
+            "dec_deg": -31.854195875264256,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Ship19",
+            "other_references": "Li__21",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "ATLAS-Aliqa Uma",
+            "membership_probability": 0.8,
+            "comments": "Also in: Li__21",
+            "adopted": true,
+            "reference": "Ship19"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -0.6251234019818109,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -11.44004056125288,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -4.6450740387663165,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -22.287343851619354,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.1120147705078125,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 23.005382895370413,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        },
+        {
+            "model": null,
+            "parameter": "dist_kpc",
+            "value": 23.442288153199275,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "5018812118808572800"
+        },
+        {
+            "other_name": "Gaia DR3 5018812118808572800"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.1380880603401079,
+            "parallax_error": 0.07929816842079163,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 17.467241287231445,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Li__21",
+            "reference": "Ship19",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 0.1449132780856803,
+            "pm_ra_error": 0.07438649982213974,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -0.9772068159467546,
+            "pm_dec_error": 0.06309226900339127,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.12300802767276764,
+            "adopted": true,
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -75.99205096596513,
+            "rv_error": 2.065642006898977,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Li__21",
+            "reference": "Ship19"
+        }
+    ]
+}

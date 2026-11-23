@@ -1,0 +1,173 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 792993521396615296",
+            "ra_deg": 145.16084153985182,
+            "dec_deg": 31.33097596993414,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Bona20",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "GD-1",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Bona20"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.3366973558562214,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -14.43805093852747,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -1.6925114384677058,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 7.2755215771772175,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "aFe",
+            "value": 0.4281281796119235,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.6907367706298828,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 9.668458989167528,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        },
+        {
+            "model": null,
+            "parameter": "dist_kpc",
+            "value": 6.243485366801593,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "792993521396615296"
+        },
+        {
+            "other_name": "Gaia DR3 792993521396615296"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.11806068344072523,
+            "parallax_error": 0.3508037030696869,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 19.260953903198242,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -4.969796981108482,
+            "pm_ra_error": 0.3028716444969177,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -13.228603408037916,
+            "pm_dec_error": 0.21437789499759674,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.4090598523616791,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -39.501474970526736,
+            "rv_error": 0.8072996557331348,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Bona20"
+        }
+    ]
+}

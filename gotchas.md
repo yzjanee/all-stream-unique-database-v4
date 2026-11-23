@@ -52,3 +52,38 @@ Each skill appends its own entries; do not edit existing ones.
 **What happened:** The skill says `uv run python create_db.py`, but repos made from astrodb-template-db have no `pyproject.toml`, so `uv run` has no astrodbkit: `ERROR: Could not import astrodbkit: No module named 'astrodbkit'`. The suggested fix, `uv add astrodbkit`, also fails without a pyproject.
 **Workaround:** `uv run --with astrodbkit --with astrodb-utils --with lsst-felis --with pytest python ...`
 **Suggested change:** In Steps 6 and 8, use `uv run --with astrodbkit --with astrodb-utils --with lsst-felis --with pytest ...` when there's no `pyproject.toml` (matches the template's CLAUDE.md install line).
+
+## Example script calls save_database() without the required directory — astrodb-ingest-01-publications, 2026-11-23
+
+**Kind:** gotcha
+**Where:** astrodb-ingest-01-publications `scripts/ingest_publication.py` (the `if SAVE_DB:` block)
+**What happened:** The pattern script calls `db.save_database()`, but astrodbkit's signature is `save_database(self, directory, clear_first=True, ...)` — `directory` is required, so a copied script would fail with a `TypeError` at the very moment the user confirms the save. v3's directions.md already noted this.
+**Workaround:** Used `db.save_database("data/")` in the tailored script.
+**Suggested change:** In `scripts/ingest_publication.py` (and `backfill_publications.py` if it does the same), change to `db.save_database("data/")`, ideally reading `data_path` from `database.toml`.
+
+## Removing template demo publications breaks lookup-table foreign keys — astrodb-ingest-01-publications, 2026-11-23
+
+**Kind:** gotcha
+**Where:** astrodb-ingest-01-publications (no step covers it); astrodb-build-01-setup Step 4
+**What happened:** The template's `Publications.json` ships 21 demo papers. Setup leaves `data/reference/` alone, and no skill says what to do with them. Removing them all would break foreign keys: template rows in Telescopes (2MASS, WISE), Instruments (2MASS, Gaia3) and AssociationList (TW Hydra Association) reference Cutr03, Wrig10, Cohe03, Gaia23 and Kastner97.
+**Workaround:** Removed 17 unused demo papers and the demo association row; kept the 4 papers that template telescope/instrument rows use.
+**Suggested change:** In ingest-01-publications, add a step: before ingesting, list template demo publications and which lookup rows depend on them, and ask the user which to remove.
+
+## Saving erased RegimeList descriptions (loader uses the first row's keys) — astrodb-ingest-01-publications, 2026-11-23
+
+**Kind:** gotcha
+**Where:** astrodb_utils `build_db_from_json` / astrodbkit JSON loading, hit during astrodb-ingest-01-publications save
+**What happened:** The template's `data/reference/RegimeList.json` gives `description` only on 2 of 9 rows (`nir`, `fir`); the first row has no `description` key. Loading it into SQLite dropped the column for every row, so `db.save_database("data/")` wrote `"description": null` for all 9 — silently erasing "near-infrared, 1-5 microns" and "far-infrared, 30-100 microns". The ingest itself reported success.
+**Workaround:** Restored the file from git and gave every row a `description` key (null where empty); confirmed the descriptions survive a rebuild.
+**Suggested change:** Upstream: make the loader insert each row with its own keys (or the union of keys) rather than the first row's. In astrodb-template-db: give every RegimeList row a `description` key. In the ingest skills: after any save, run `git diff --stat data/` and check that unrelated reference files didn't change.
+
+## ingest-03-photometry: `ingest_photometry` always resolves names through SIMBAD
+- **Kind:** gotcha
+- **What happened:** `ingest_photometry` calls `find_source_in_db(db, source)`, which uses `db.search_object(..., resolve_simbad=True)`. There is no `use_simbad` argument, so every row makes a SIMBAD call even when the name matches `Sources` exactly. With SIMBAD down (404 on `/simbad/capabilities`) the script crashed on the first row. Even with SIMBAD up, 80k rows means 80k web calls.
+- **Workaround:** a custom bulk insert that checks source, band, and reference against the database. The skill already describes this pattern for asymmetric errors.
+- **Suggested change:** add `use_simbad: bool = True` to `ingest_photometry` in astrodb_utils and pass it through to `find_source_in_db`. In the skill, add a large-table path: "for more than ~1,000 rows, or when names are exact, validate against the database and bulk insert."
+
+## build-06-create-db: generated content tests hard-code empty-table counts
+- **Kind:** gotcha
+- **What happened:** `generate_tests.py` writes `test_contents_*.py` with expected counts of 0. After ingest, 5 tests fail until someone edits the numbers by hand. No ingest skill mentions this.
+- **Suggested change:** have each ingest skill's final step update or remind about the matching `tests/test_contents_*.py` count, or generate the tests to read expected counts from one small config file.

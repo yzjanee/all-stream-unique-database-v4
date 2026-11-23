@@ -1,0 +1,151 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 4972389402151428096",
+            "ra_deg": 1.4486412892907474,
+            "dec_deg": -52.269912709475946,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Awad24",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "Jhelum",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Awad24"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.092537187529887,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -4.39705127584565,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -3.4366027051406616,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -10.395263937782408,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.8205204010009766,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 11.633697162404859,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "4972389402151428096"
+        },
+        {
+            "other_name": "Gaia DR3 4972389402151428096"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.12792160507712313,
+            "parallax_error": 0.12484375387430191,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.465299606323242,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 7.050673484487792,
+            "pm_ra_error": 0.09281624108552933,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -3.2343571346426394,
+            "pm_dec_error": 0.1178523600101471,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.27852997183799744,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": 52.80978633869681,
+            "rv_error": 2.0752244090401653,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Awad24"
+        }
+    ]
+}

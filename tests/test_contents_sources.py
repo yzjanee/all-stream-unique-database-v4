@@ -7,7 +7,7 @@ from sqlalchemy import or_
 
 def test_sources(db):
     n_sources = db.query(db.Sources).count()
-    assert n_sources == 0, f"Found {n_sources} sources, expected 0 (empty database)"
+    assert n_sources == 80135, f"Found {n_sources} sources, expected 80135"
 
 
 def test_coordinates(db):

@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 598105222812160768",
+            "ra_deg": 131.40697348825844,
+            "dec_deg": 9.770381100221353,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Huan19",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "GD-1",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Huan19"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -13.851875683424495,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -4.231771656593597,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": 4.043946064365688,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.6583194732666016,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 8.07436867952206,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "598105222812160768"
+        },
+        {
+            "other_name": "Gaia DR3 598105222812160768"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.3280914882568451,
+            "parallax_error": 0.1595749706029892,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.284061431884766,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -2.5809153196391104,
+            "pm_ra_error": 0.1613239347934723,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -11.87718979005986,
+            "pm_dec_error": 0.12418349087238312,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": -0.25630369782447815,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": 193.88,
+            "rv_error": 14.46,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Huan19"
+        }
+    ]
+}

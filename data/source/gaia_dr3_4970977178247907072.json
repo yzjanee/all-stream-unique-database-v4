@@ -1,0 +1,140 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 4970977178247907072",
+            "ra_deg": 32.052319828424906,
+            "dec_deg": -33.12496824408525,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Li__21",
+            "other_references": "Ibat24",
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "ATLAS-Aliqa Uma",
+            "membership_probability": null,
+            "comments": "Also in: Ibat24",
+            "adopted": true,
+            "reference": "Li__21"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -12.265369833359156,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": -6.165915355492422,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -22.999531738194563,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 0.9185619354248047,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 24.16355614439329,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "4970977178247907072"
+        },
+        {
+            "other_name": "Gaia DR3 4970977178247907072"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": -0.08901263877272986,
+            "parallax_error": 0.1677638739347458,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 18.801673889160156,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": -0.03797934533053504,
+            "pm_ra_error": 0.09160313755273819,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": -0.9728925151826114,
+            "pm_dec_error": 0.16075409948825836,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.07212456315755844,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -53.98,
+            "rv_error": 2.95,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": "Also in: Ibat24",
+            "reference": "Li__21"
+        }
+    ]
+}

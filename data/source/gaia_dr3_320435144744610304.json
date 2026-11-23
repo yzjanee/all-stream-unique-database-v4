@@ -1,0 +1,151 @@
+{
+    "Sources": [
+        {
+            "source": "Gaia DR3 320435144744610304",
+            "ra_deg": 21.347051217505616,
+            "dec_deg": 35.2526465633153,
+            "epoch_year": 2016.0,
+            "equinox": null,
+            "reference": "Yang22",
+            "other_references": null,
+            "comments": null
+        }
+    ],
+    "Associations": [
+        {
+            "association": "NGC 5824",
+            "membership_probability": null,
+            "comments": null,
+            "adopted": true,
+            "reference": "Yang22"
+        }
+    ],
+    "ModeledParameters": [
+        {
+            "model": null,
+            "parameter": "FeH",
+            "value": -2.141,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "dex",
+            "comments": null,
+            "reference": "Yang22"
+        },
+        {
+            "model": null,
+            "parameter": "X_kpc",
+            "value": -24.351808129623798,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Yang22"
+        },
+        {
+            "model": null,
+            "parameter": "Y_kpc",
+            "value": 18.64540490761075,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Yang22"
+        },
+        {
+            "model": null,
+            "parameter": "Z_kpc",
+            "value": -12.529689851139194,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Yang22"
+        },
+        {
+            "model": null,
+            "parameter": "bp_rp",
+            "value": 1.2054471969604492,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "mag",
+            "comments": null,
+            "reference": "Yang22"
+        },
+        {
+            "model": null,
+            "parameter": "d_orb_kpc",
+            "value": 27.633865452579478,
+            "error": null,
+            "error_upper": null,
+            "error_lower": null,
+            "unit": "kpc",
+            "comments": null,
+            "reference": "Yang22"
+        }
+    ],
+    "Names": [
+        {
+            "other_name": "320435144744610304"
+        },
+        {
+            "other_name": "Gaia DR3 320435144744610304"
+        }
+    ],
+    "Parallaxes": [
+        {
+            "parallax_mas": 0.06572076081289176,
+            "parallax_error": 0.05558086559176445,
+            "parallax_error_upper": null,
+            "parallax_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Yang22"
+        }
+    ],
+    "Photometry": [
+        {
+            "band": "GAIA/GAIA3.G",
+            "magnitude": 16.3829345703125,
+            "magnitude_error": null,
+            "magnitude_error_upper": null,
+            "magnitude_error_lower": null,
+            "telescope": "Gaia",
+            "epoch": null,
+            "comments": null,
+            "reference": "Yang22",
+            "regime": "optical"
+        }
+    ],
+    "ProperMotions": [
+        {
+            "pm_ra": 0.8678781298696348,
+            "pm_ra_error": 0.056336332112550735,
+            "pm_ra_error_upper": null,
+            "pm_ra_error_lower": null,
+            "pm_dec": 0.265269924490745,
+            "pm_dec_error": 0.04352935031056404,
+            "pm_dec_error_upper": null,
+            "pm_dec_error_lower": null,
+            "pmra_pmdec_corr": 0.15237435698509216,
+            "adopted": true,
+            "comments": null,
+            "reference": "Yang22"
+        }
+    ],
+    "RadialVelocities": [
+        {
+            "rv_kms": -74.42,
+            "rv_error": 11.61,
+            "rv_error_upper": null,
+            "rv_error_lower": null,
+            "adopted": true,
+            "comments": null,
+            "reference": "Yang22"
+        }
+    ]
+}
