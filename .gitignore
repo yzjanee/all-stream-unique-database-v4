@@ -13,3 +13,4 @@ __pycache__/
 # Database files
 tests/*.sqlite
 *.sqlite
+website/

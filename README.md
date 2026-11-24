@@ -24,3 +24,27 @@ Yaron, O. & Gal-Yam, A. 2012, PASP, 124, 668 ([2012PASP..124..668Y](https://ui.a
 ---
 <!-- Do not delete this line. It is used to identify repositories based on this template. -->
 This repository is based on the [astrodb-template](https://github.com/astrodbtoolkit/astrodb-template-db) template repository, which is part of the [AstroDB Toolkit](https://github.com/astrodbtoolkit).
+
+## Website
+
+A browsable web interface for this database lives in its own repo: [all-stream-unique-database-v4-website](https://github.com/yzjanee/all-stream-unique-database-v4-website) (built from the [astrodb-web](https://github.com/astrodbtoolkit/astrodb-web) template). It runs locally; it is not hosted online yet.
+
+To run it, clone it into this repo's `website/` folder (git-ignored here), point it at the database, and start the server:
+
+```bash
+git clone https://github.com/yzjanee/all-stream-unique-database-v4-website website
+cd website
+cat > .env <<ENV
+ASTRO_WEB_DATABASE_URL="sqlite:///$(cd .. && pwd)/all_streams_unique_v4.sqlite"
+ASTRO_WEB_LOOKUP_TABLES="Publications,Telescopes,Instruments,PhotometryFilters,RegimeList,AssociationList,ParameterList"
+ASTRO_WEB_PRIMARY_TABLE="Sources"
+ASTRO_WEB_SOURCE_COLUMN="source"
+ASTRO_WEB_FOREIGN_KEY="source"
+ASTRO_WEB_RA_COLUMN="ra_deg"
+ASTRO_WEB_DEC_COLUMN="dec_deg"
+ENV
+uv sync
+uv run serve
+```
+
+Then open <http://localhost:8000>. The `.sqlite` file must exist first. Build it from the JSON data by running the tests once (`uv run pytest tests/`). Restart the server after the database changes.

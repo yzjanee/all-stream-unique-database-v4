@@ -71,3 +71,4 @@ Every question asked, assumption made, and problem hit while building v4. Sent t
 - **Note:** 5 stars have no parallax or proper motion and are skipped. 27 stars belong to two streams, so they have 2 Associations rows each.
 - **Note:** v3's `insert_or_skip` silently ignores insert errors for the lookup rows. The Associations and ModeledParameters inserts would fail on the foreign keys if any lookup row were missing, so this is low risk, but it would hide a bad description.
 - **build-06-create-db (skill gap):** generated content tests expect 0 rows; after ingest I updated the counts by hand (Sources 80,135; Parallaxes/ProperMotions 80,130; RadialVelocities 6,942; ModeledParameters 458,088). Logged in gotchas.md.
+- **astrodb-website:** cloned yzjanee/all-stream-unique-database-v4-website into website/ (git-ignored in this repo, since it is its own repo). Site runs locally at http://localhost:8000; not hosted anywhere yet.
