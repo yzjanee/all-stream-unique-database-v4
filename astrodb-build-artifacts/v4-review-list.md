@@ -39,7 +39,6 @@ Every question asked, assumption made, and problem hit while building v4. Sent t
 ## Problems
 - **build-01-setup (skill bug):** Step 9 names the next skill by an old name (`astro-parse-data-table`). Logged in `gotchas.md`.
 - **build-01-setup (skill bug):** Step 7 says "move on to Step 7". Logged in `gotchas.md`.
-- **ADS token:** pasted into chat twice; needs regenerating and setting as `ADS_TOKEN` by Jane before ingest-01.
 - **build-04-schema-validate (skill issue):** Runs before schema.yaml is generated, so proposed fields show as missing. Logged in `gotchas.md`.
 - **build-06-create-db (skill bug):** Generated `test_orm_use` fails on a foreign key; fixed by hand. Logged in `gotchas.md`.
 - **build-06-create-db (skill gap):** Removed tables stay in database.toml and data/reference. Logged in `gotchas.md`.
